@@ -16,6 +16,8 @@ The logic behind this, is that I have set a variable inside redis (memory databa
 
 [predis/predis](https://github.com/predis/predis): I used it to set and get values from  redis, I actually needed it just to set the last time that an email has been sent.
 
+- please note that the main php version should 5.4
+
 ## How run the project
 
 1- first of a ll you need to copy the folder to a web server like  nginx, wamp, xampp or mamp.
