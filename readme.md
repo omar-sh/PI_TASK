@@ -19,6 +19,7 @@ The logic behind this, is that I have set a variable inside redis (memory databa
 ## How run the project
 
 1- first of a ll you need to copy the folder to a web server like  nginx, wamp, xampp or mamp.
+
 2- navigate to the project folder and do `composer install` to  install the packages
 
 3- open a terminal, navigate to the project folder, and call
