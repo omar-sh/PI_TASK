@@ -1,0 +1,20 @@
+{
+    "name": "omar/pl_task",
+    "authors": [
+        {
+            "name": "Omar Shrbajy",
+            "email": "omar.shrbajy1@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "resque/php-resque": "^1.3",
+        "swiftmailer/swiftmailer": "^6.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "jobs/EmailJob.php"
+        ]
+    }
+}
