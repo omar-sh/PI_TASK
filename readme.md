@@ -22,7 +22,7 @@ The logic behind this, is that I have set a variable inside redis (memory databa
 2- navigate to the project folder and do `composer install` to  install the packages
 
 3- open a terminal, navigate to the project folder, and call
-`VERBOSE=1 QUEUE=* php ./vendor/resque/php-resque/bin/resque`  this should be stay working to send emails
+`VERBOSE=1 QUEUE=* php ./vendor/resque/php-resque/bin/resque`  this should be stay working to send emails. Please note that this command may change if you are working in windows environment for settings those values `VERBOSE=1 QUEUE=*`.
 
 4- you can test  the  project, by issueing a  request to
 `localhost:{port}/{project_name}/sensorEndPoint.php`
